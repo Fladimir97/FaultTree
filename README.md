@@ -16,14 +16,14 @@ A basic event (leaf node) with a known failure probability and reliability.
 ### `AND_NODE`
 Gate that fails only when **all** children fail.
 
-- **Failure:** `F = F₁ × F₂ × ...`
-- **Reliability:** `R = 1 - (1-R₁)(1-R₂)...`
+- **Failure:** $F = \prod F_i$
+- **Reliability:** $R = 1 - \prod (1-R_i)$
 
 ### `OR_NODE`
 Gate that fails when **any** child fails.
 
-- **Failure:** `F = 1 - (1-F₁)(1-F₂)...`
-- **Reliability:** `R = R₁ × R₂ × ...`
+- **Failure:** $F = 1 - \prod (1-F_i)$
+- **Reliability:** $R = \prod R_i$
 
 ### `NODE` Interface
 All node types implement:
