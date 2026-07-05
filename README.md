@@ -38,3 +38,6 @@ All node types implement:
 go run Fehlerbaum.go
 dot -Tpng Fehlerbaum.dot -o Fehlerbaum.png
 ```
+
+![](./Fehlerbaum.png)
+
