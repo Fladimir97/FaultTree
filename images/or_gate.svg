@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 70" width="80" height="70">
+  <!-- Spitze oben (Ausgang), konkave Unterseite (Eingänge) -->
+  <path d="M 10,62 Q 40,50 70,62 Q 72,18 40,5 Q 8,18 10,62 Z"
+        fill="white" stroke="black" stroke-width="1"/>
+</svg>
