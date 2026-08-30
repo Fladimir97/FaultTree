@@ -10,8 +10,8 @@ A basic event (leaf node) with a known failure probability and reliability.
 | Field | Type | Description |
 |---|---|---|
 | `Title` | string | Name of the event |
-| `Reliability` | float64 | Probability of working: R |
-| `Failure` | float64 | Probability of failing: F = 1 - R |
+| `Reliability` | float64 | Probability of working: $R$ |
+| `Failure` | float64 | Probability of failing: $F = 1 - R$ |
 
 ### `AND_NODE`
 
